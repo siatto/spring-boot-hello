@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloRestController {
 
-  private static final String template = "Hellllo, %s!";
+  private static final String template = "Hello, %s!";
   private final AtomicLong counter = new AtomicLong();
 
   @RequestMapping(method = RequestMethod.GET, value = "/hello")
